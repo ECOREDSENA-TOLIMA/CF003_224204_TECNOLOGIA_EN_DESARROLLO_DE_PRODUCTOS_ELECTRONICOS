@@ -1,19 +1,176 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
+.tarjeta--verde
+  background-color: #00CCA7
+.tarjeta--verde2
+  background-color: #D8F7F2        
+.bg-color1
+  background-color: #FFFAE3
+.border-morado
+  border-bottom: 3px solid #3C0061
+.color-tabs2-1
+  background-color: #B3009D
+.color-tabs2-1-bg
+  background-color: #F4DAF1
+.color-tabs2-2  
+  background-color: #3C0061
+.color-tabs2-2-bg
+  background-color: #E2DAE8
 
 
-@keyframes float1
-  0%
-    transform: translateY(20px)
+.tabla-b tbody tr td
+  border: 1px solid #D6D6D6
+.tabla-b tr:nth-child(even), .tabla-c tr:nth-child(even)
+  background-color: #E8E8E8
+.tabla-b caption
+  background-color: #ECD1E9
+.tabla-b img
+  width: 115px
+  margin: 0 auto
+  padding-top: 2px
+.tabla-b thead .column1 
+  width: 32%
 
-  100%
-    transform: translateY(0px)
+figcaption
+  font-weight: 500
+
+.tabs-c__tab--active span
+  font-weight: bold
+
+.slyder-tema1-content .slyder-a__bullets__item
+  background-color: #00CCA7
+  opacity: 1
+  width: 20px
+  height: 20px
+  margin: 0px 20px
+.slyder-tema1-content img
+    width: 100px
+    margin: 0 auto  
+.slyder-tema1-content .slyder-a__btn--sigt, .slyder-tema1 .slyder-a__btn--atrs
+    display: none
+.slyder-tema1-content .slyder-a__bullets__item--active
+  background-color: #B3009D !important
+  border-color: #B3009D
+.slyder-tema1-content .slyder-a__bullets  
+  bottom: 25px    
+@media (min-width: $bp-min-xxl)
+  .slyder-tema1
+    background-image: url('../assets/curso/tema1-1-portada-slyder.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    height: 305px
+@media (max-width: $bp-max-xl)
+  .slyder-tema1
+    background-image: url('../assets/curso/tema1-1-portada-slyder.svg')
+    background-size: cover
+    background-repeat: no-repeat
+    height: 263px 
+@media (max-width: $bp-max-md)
+  .slyder-tema1-content .slyder-a__bullets  
+    bottom: 0px  
+  .slyder-tema1
+    height: 330px
+    background-color: #D8F7F2
+    background-image: none
+
+.img-infografica__item
+  width: 3.5%
+
+.texto-vertical .color-tabs2-1
+  width: 100%
+  height: 245px
+  float: right
+.texto-vertical .color-tabs2-2
+  width: 100%
+  height: 178px
+  float: right
+.texto-vertical h4
+  text-align: center
+  margin: 0 auto
+  padding-right: 10px
+.texto-vertical
+  writing-mode: tb
+  transform: rotate(180deg)
+.tabs-a__tab 
+  background-color: #E8E8E8
+.tabs-a .col-sm-6.col-lg-12:nth-child(5n) .tabs-a__tab__selected, .tabs-a .col-sm-6.col-lg-12:nth-child(6n) .tabs-a__tab__selected, .tabs-a .col-sm-6.col-lg-12:nth-child(7n) .tabs-a__tab__selected
+  background-color: #3C0061 !important
+.tabs-a .col-sm-6.col-lg-12:nth-child(5n) .tabs-a__tab__selected:before, .tabs-a .col-sm-6.col-lg-12:nth-child(6n) .tabs-a__tab__selected:before, .tabs-a .col-sm-6.col-lg-12:nth-child(7n) .tabs-a__tab__selected:before
+  background-color: #3C0061 !important
+.tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(5n) .tabs-a__tab:hover, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(5n).tabs-a__tab:active, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(5n) .tabs-a__tab:focus
+  background-color: #3C0061 !important
+.tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(6n) .tabs-a__tab:hover, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(6n).tabs-a__tab:active, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(6n) .tabs-a__tab:focus
+  background-color: #3C0061 !important
+.tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(7n) .tabs-a__tab:hover, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(7n).tabs-a__tab:active, .tabs-a.color-acento-contenido .col-sm-6.col-lg-12:nth-child(7n) .tabs-a__tab:focus
+  background-color: #3C0061 !important
+
+@media (min-width: $bp-min-xxl)
+  .tabs-a-pc
+    display: initial
+  .tabs-a-mobile
+    display: none 
+@media (max-width: $bp-max-xl)
+  .tabs-a-pc
+    display: initial
+  .tabs-a-mobile
+    display: none
+@media (max-width: $bp-max-md)
+  .tabs-a-pc
+    display: none !important
+  .tabs-a-mobile
+    display: initial !important
+
+
+.slyder-tema2 .slyder-a__bullets__item
+  display: none
+
+
+.pasos-a figcaption
+  background-color: #3C0061
+  padding: 0.30em 1.5em
+  text-align: left
+.pasos-a__linea__esquina__linea
+  border-radius: 0px
+.pasos-a__circle
+  width: 65px
+  height: 65px
+  min-width: 65px
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  font-size: 28px
+
+
+// Tarjeta Hover ////////////////////
+.tarjeta-color2
+  background-color: #D9F8F2  
+
+.tarjeta-container
+  position: relative
+  overflow: hidden
+  height: 205px
+  border-radius: 20px    
+  
+  .tarjetaContent
+    position: relative    
+    top: 0 
+    left: 0      
+    transition: all 0.45s 0s ease;
+    .tarjetaImg, .tarjetaTxt 
+      display: flex
+      flex-direction: column
+      justify-content: center
+      align-items: center          
+      height: 205px
+      padding: 2rem
+    .tarjetaImg img
+      width: 120px  
+    .tarjetaTxt      
+      text-align: center
+      background-color: #B3009D  
+  &:hover
+    .tarjetaContent
+      top: -205px
+@media (max-width: $bp-max-md)
+  .tarjeta-container.tarjeta-grande
+    height: 300px 
+  .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaImg, .tarjeta-container.tarjeta-grande .tarjetaContent .tarjetaTxt
+    height: 300px
+  .tarjeta-container.tarjeta-grande .tarjetaContent:hover    
+    top: -300px 

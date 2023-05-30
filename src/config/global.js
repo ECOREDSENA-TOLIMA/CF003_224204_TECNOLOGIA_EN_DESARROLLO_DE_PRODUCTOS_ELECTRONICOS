@@ -1,19 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo: 'Diagnóstico de circuitos electrónicos',
+    descripcionCurso:
+      'En este componente formativo se tratan conceptos relacionados con las herramientas utilizadas en el diagnóstico de circuitos electrónicos, su uso adecuado, normas aplicadas y los insumos necesarios para emitir un concepto acertado del estado de un producto electrónico.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
-    ],
   },
   menuPrincipal: {
     menu: [
@@ -30,29 +21,92 @@ export default {
       },
       {
         nombreRuta: 'tema1',
+        icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Entorno de trabajo',
         desarrolloContenidos: true,
         subMenu: [
           {
+            icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Procedimientos de alistamiento del área de trabajo',
             hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Normas de seguridad y salud en el trabajo',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo:
+              'Condiciones técnicas, térmicas y atmosféricas que pueden influir según el tipo de equipo',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo: 'Procedimientos de aprovisionamiento y solicitud',
+            hash: 't_1_4',
           },
         ],
       },
 
       {
         nombreRuta: 'tema2',
+        icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Herramientas y equipos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.1',
+            titulo: 'Tipos',
+            hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Clasificación',
+            hash: 't_2_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.3',
+            titulo: 'Características',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
+        icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Insumos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.1',
+            titulo: 'Tipos',
+            hash: 't_3_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.2',
+            titulo: 'Clasificación',
+            hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Almacenamiento',
+            hash: 't_3_3',
+          },
+        ],
       },
     ],
     subMenu: [
@@ -95,34 +149,96 @@ export default {
       },
     ],
   },
-  complementario: [
+  referencias: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      referencia: 'ABC Pack. (s. f.). Espuma antiestática.',
+      link: 'https://www.abc-pack.com/productos/espuma-antiestatica/',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      referencia:
+        'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE.',
+    },
+    {
+      referencia: 'Handskit. (s. f.). Handskit Soldering Iron Kit.',
+      link: 'http://www.handskit.com/enproductslist.asp?id=675',
+    },
+    {
+      referencia: 'National Instruments [NI]. (s. f.). NI ELVIS III.',
+      link: 'https://www.ni.com/es-co/support/model.ni-elvis-iii.html',
+    },
+    {
+      referencia:
+        'Pallás, R. (2007). Instrumentos electrónicos básicos. Alfaomega.',
+    },
+    {
+      referencia:
+        'Real Academia Española. (2020). Definición de electrostático, ca.',
+      link: 'https://dle.rae.es/electrost%C3%A1tico',
+    },
+    {
+      referencia:
+        'Renishaw. (2020). Ficha técnica. Advanced Diagnostic Tool ADTi-100.',
+      link:
+        'https://www.renishaw.es/media/pdf/en/49ad60e539354f58b85a10aabea009cb.pdf',
+    },
+    {
+      referencia:
+        'Resolución 181294 de 2008. [Ministerio de Minas y Energía]. Por la cual se modifica el Reglamento Técnico de Instalaciones Eléctricas - RETIE. Agosto 6 de 2008.',
+      link:
+        'https://normograma.info/ssppdd/docs/resolucion_minminas_181294_2008.htm',
+    },
+    {
+      referencia:
+        'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019.',
+    },
+    {
+      referencia: 'Wikipedia. (2019). Energía específica.',
+      link: 'https://es.wikipedia.org/wiki/Energ%C3%ADa_espec%C3%ADfica',
     },
   ],
   glosario: [
     {
-      termino: '',
-      significado: '',
+      termino: 'Electrostática',
+      significado:
+        'Rama de la física que estudia los sistemas de cuerpos electrizados en equilibrio. f. Electr. Redistribución de las cargas eléctricas en un conductor por la acción de un campo eléctrico exterior. (Real Academia Española, 2020)',
     },
     {
-      termino: '<em></em>',
-      significado: '',
+      termino: 'Energía específica',
+      significado:
+        'La energía específica es la energía por unidad de masa. Se utiliza para cuantificar, por ejemplo, el calor almacenado u otras propiedades termodinámicas de sustancias. (Wikipedia, 2019)',
+    },
+    {
+      termino: 'Estaño',
+      significado:
+        'Elemento químico metálico, de número atómico 50, de color y brillo plateados, que se emplea para recubrir otros metales, en el envasado de alimentos y en soldaduras, y que, aleado con el cobre, forma el bronce. (Símb. Sn). (Real Academia Española, 2020)',
+    },
+    {
+      termino: 'Multímetro',
+      significado:
+        'm. Electr. Instrumento que permite medir varias magnitudes eléctricas, como la intensidad, la tensión y la resistencia. (Real Academia Española, 2020)',
+    },
+    {
+      termino: 'Osciloscopio',
+      significado:
+        'm. Electr. Aparato provisto de una pantalla y que sirve para representar en ella magnitudes físicas que varían rápidamente. (Real Academia Española, 2020)',
     },
   ],
-  referencias: [
+  complementario: [
     {
-      referencia: '',
-      link: '',
+      texto:
+        'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019',
+      tipo: 'Texto',
+      link: 'https://safetya.co/normatividad/resolucion-5018-de-2019/',
+    },
+    {
+      texto: 'Renishaw. (s. f.). Advanced Diagnostic Tools (ADT).',
+      tipo: 'Hoja de datos',
+      link: 'https://www.renishaw.es/es/advanced-diagnostic-tools-adt--38358',
+    },
+    {
+      texto: 'National Instruments Corp.',
+      tipo: 'Sitio web',
+      link: 'https://www.ni.com/es-co/',
     },
   ],
   creditos: [
@@ -131,13 +247,13 @@ export default {
       autores: [
         {
           nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          cargo: 'Responsable del Equipo',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
-          cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Responsable de Línea de Producción',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -145,9 +261,40 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Nombre del rol',
-          centro: 'Nombre centro de formación',
+          nombre: 'Ángela Rocío Sánchez Ruiz',
+          cargo: 'Experto Temático',
+          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
+        },
+        {
+          nombre: 'Miroslava González H.',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Juan Gilberto Giraldo Cortés',
+          cargo: 'Diseñador Instruccional',
+          centro: '',
+        },
+        {
+          nombre: 'Álix Cecilia Chinchilla Rueda',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Centro de Gestión Industrial',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñones',
+          cargo: 'Asesora Metodológica',
+          centro: 'Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano',
+          cargo: 'Asesor Pedagógico',
+          centro:
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+        },
+        {
+          nombre: 'Darío González',
+          cargo: 'Revisión y Corrección de Estilo',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
         },
       ],
     },
@@ -155,19 +302,29 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'José Jaime Luis Tang',
+          cargo: 'Diseñador Web',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Francisco José Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Gilberto Junior Rodríguez Rodríguez',
+          cargo: 'Storyboard e Ilustración',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Nelson Iván Vera Briceño',
+          cargo: 'Animador y Producción Audiovisual',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Sebastián Trujillo Afanador',
+          cargo: 'Actividad Didáctica',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
@@ -175,14 +332,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Javier Mauricio Oviedo',
+          cargo: 'Validación y Vinculación en Plataforma LMS',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Gilberto Naranjo Farfán',
+          cargo: 'Validación de Contenidos Accesibles',
+          centro: 'Regional Tolima - Centro de Comercio y Servicios',
         },
       ],
     },
