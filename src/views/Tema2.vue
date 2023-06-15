@@ -70,7 +70,7 @@
           .col-md-5
             h4 Herramientas inteligentes
             p Las herramientas inteligentes de diagnóstico son un tipo nuevo, que integra un poco de cada una de las ya mencionadas y se complementa con un 
-              strong software, 
+              strong <em>software,</em> 
               | lo que permite el análisis de datos en tiempo real y así obtener un diagnóstico preciso y confiable.
 
     p.mb-4(data-aos="fade") Existen también las herramientas integradas. Estas están contenidas en un módulo conectado a un equipo de cómputo donde se visualizan todos los datos de medición. Este tipo de herramientas son muy útiles cuando se requiere hacer montaje de prototipos. Algunas de estas se presentan a continuación.

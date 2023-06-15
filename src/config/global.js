@@ -225,18 +225,21 @@ export default {
   ],
   complementario: [
     {
-      texto:
+      tema: 'Seguridad y Salud en el trabajo',
+      referencia:
         'Resolución 5018 de 2019. [Ministerio del Trabajo]. Por la cual se establecen lineamientos en Seguridad y Salud en el trabajo en los Procesos de Generación, Transmisión, Distribución y Comercialización de la Energía Eléctrica. Noviembre 20 de 2019',
       tipo: 'Texto',
       link: 'https://safetya.co/normatividad/resolucion-5018-de-2019/',
     },
     {
-      texto: 'Renishaw. (s. f.). Advanced Diagnostic Tools (ADT).',
+      tema: 'Herramienta de Diagnóstico Avanzado AD',
+      referencia: 'Renishaw. (s. f.). Advanced Diagnostic Tools (ADT).',
       tipo: 'Hoja de datos',
       link: 'https://www.renishaw.es/es/advanced-diagnostic-tools-adt--38358',
     },
     {
-      texto: 'National Instruments Corp.',
+      tema: 'Herramientas Integradas',
+      referencia: 'National Instruments Corp.',
       tipo: 'Sitio web',
       link: 'https://www.ni.com/es-co/',
     },
