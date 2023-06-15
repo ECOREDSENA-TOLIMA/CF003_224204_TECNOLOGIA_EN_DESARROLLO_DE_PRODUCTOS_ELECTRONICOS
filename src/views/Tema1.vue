@@ -8,9 +8,6 @@
         span 1
       h1 Entorno de trabajo
 
-    figure.mb-5(data-aos="fade")
-      img(src="@/assets/curso/banner-tema1.png", alt="Entorno de trabajo") 
-
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down")
         .bloque-texto-x

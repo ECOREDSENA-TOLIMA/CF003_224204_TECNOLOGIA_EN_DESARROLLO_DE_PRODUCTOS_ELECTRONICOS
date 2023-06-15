@@ -19,7 +19,7 @@
           .col-lg-6.mb-4(data-aos="fade-right")
             .nav-holder
               img(src="@/assets/curso/tema2-hover1.png", alt="Herramientas")
-              .text.p-lg-5.p-5.p-sm-3
+              .text.p-lg-5.p-3.p-sm-3
                 p Es posible encontrar en el comercio electrónico varios tipos de 
                   strong kits
                   | completos para esta labor. Esta imagen muestra  algunas de las herramientas necesarias para trabajar con equipos electrónicos.
@@ -27,7 +27,7 @@
             .nav-holder(@mouseover="mostrarIndicador = false")
               .indicador--click(v-if="mostrarIndicador")
               img(src="@/assets/curso/tema2-hover2.png", alt="Osciloscopio digital")
-              .text.p-lg-5.p-5.p-sm-3
+              .text.p-lg-5.p-3.p-sm-3
                 p Algunos equipos no son tan necesarios, pero facilitan el trabajo si se cuenta con ellos. Esta imagen presenta un equipo complementario: un microscopio y un osciloscopio digital.
     
     Separador
@@ -86,7 +86,7 @@
             .row.px-lg-5
               figure.px-lg-5.py-lg-3
                 img.m-2(src='@/assets/curso/tema2-1-slider2.jpg', alt='Captura de pantalla del software para Elvis III de National Instruments.')
-                figcaption Captura de pantalla del software para Elvis III de National Instruments.
+                figcaption Captura de pantalla del <em>software</em> para Elvis III de National Instruments.
 
     Separador
 
