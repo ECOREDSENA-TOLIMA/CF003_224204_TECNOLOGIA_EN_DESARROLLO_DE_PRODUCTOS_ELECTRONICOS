@@ -139,6 +139,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_3_224204.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
