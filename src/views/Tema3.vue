@@ -31,7 +31,7 @@
 
     .titulo-sexto.color-acento-contenido
       p.mb-0
-        strong Figura 5. 
+        strong Figura 7. 
         | <em>Mapa mental con los diferentes tipos de insumos electrónicos</em>
     figure.mb-4
       img(src='@/assets/curso/tema3-1-fig5.svg', alt='Mapa mental con los diferentes tipos de insumos electrónicos')
@@ -49,10 +49,6 @@
 
     .row.justify-content-center
       .col-lg-10(data-aos="fade-down") 
-        .titulo-sexto.color-acento-contenido
-          p.mb-0
-            strong Figura 6. 
-            | <em>Clasificación de insumos</em>
         PasosA.color-acento-contenido(tipo="n")
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
@@ -100,13 +96,18 @@
     #t_3_3.titulo-segundo(data-aos="fade-right")
       .h2 3.3.  Almacenamiento
 
-    .row.mb-4
+    .row.mb-4.justify-content-center.align-items-center
       .col-lg-7.mb-4(data-aos="fade-right")
         p Para el almacenamiento de insumos electrónicos, se deben tener en cuenta las características descritas en la etiqueta del producto o, en su defecto, los manuales técnicos. Algunos productos son sensibles a la humedad y, en el caso de las brocas, se oxidan y pierden el filo si son sometidas a los ambientes extremos. Los pines de los circuitos integrados, resistores y condensadores son sensibles a la oxidación, lo que dificulta su posterior fijación y soldado; muchos de ellos también son sensibles a las descargas electrostáticas, por lo que se debe tener especial cuidado en su almacenamiento y el uso necesario de esponjas y bolsas antiestáticas.
       .col-lg-5.mb-4(data-aos="fade-left")
-        figure
-          img.mb-2(src="@/assets/curso/tema3-3.jpg", alt="Almacenamiento")
-          figcaption Nota. Tomada de ABC Pack (s. f.).
+        .col-lg-10(data-aos="fade-down") 
+          .titulo-sexto.color-acento-contenido
+            p.mb-0
+              strong Figura 8. 
+              | <em>Clasificación de insumos</em>
+          figure
+            img.mb-2(src="@/assets/curso/tema3-3.jpg", alt="Almacenamiento")
+            figcaption Nota. Tomada de ABC Pack (s. f.).
 
     .row.justify-content-center
       .col-lg-8

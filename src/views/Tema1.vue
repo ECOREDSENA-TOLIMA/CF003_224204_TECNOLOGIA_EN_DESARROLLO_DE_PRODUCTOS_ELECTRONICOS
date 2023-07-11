@@ -321,14 +321,14 @@
             .titulo-sexto.color-acento-contenido
               p.mb-0
                 strong Figura 3. 
-                | <em>Zonas corriente contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz</em>
+                | <em>Zonas corrientes contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz</em>
             .row
               .col-lg-6
                 figure
-                  img(src="@/assets/curso/tema1-3-figura3-1.svg", alt="Zonas corriente contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz")
+                  img(src="@/assets/curso/tema1-3-figura3-1.svg", alt="Zonas corrientes contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz")
               .col-lg-6   
                 figure
-                  img(src="@/assets/curso/tema1-3-figura3-2.svg", alt="Zonas corriente contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz") 
+                  img(src="@/assets/curso/tema1-3-figura3-2.svg", alt="Zonas corrientes contra tiempo de exposición a los efectos de las corrientes alternas de 15 Hz a 100 Hz") 
 
 
     Separador

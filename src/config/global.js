@@ -164,10 +164,6 @@ export default {
         'Biegelmeier, G. (1986). Efectos de la corriente eléctrica en humanos y ganado. VDE.',
     },
     {
-      referencia: 'Handskit. (s. f.). Handskit Soldering Iron Kit.',
-      link: 'http://www.handskit.com/enproductslist.asp?id=675',
-    },
-    {
       referencia: 'National Instruments [NI]. (s. f.). NI ELVIS III.',
       link: 'https://www.ni.com/es-co/support/model.ni-elvis-iii.html',
     },
@@ -239,14 +235,14 @@ export default {
     {
       tema: 'Herramienta de Diagnóstico Avanzado AD',
       referencia: 'Renishaw. (s. f.). Advanced Diagnostic Tools (ADT).',
-      tipo: 'Hoja de datos',
+      tipo: 'Sitio web',
       link: 'https://www.renishaw.es/es/advanced-diagnostic-tools-adt--38358',
     },
     {
       tema: 'Herramientas Integradas',
       referencia: 'National Instruments Corp.',
       tipo: 'Sitio web',
-      link: 'https://www.ni.com/es-co/',
+      link: 'https://www.ni.com/es-co.html',
     },
   ],
   creditos: [

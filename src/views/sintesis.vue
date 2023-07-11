@@ -3,8 +3,8 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Con este componente formativo logró identificar el estado de un producto electrónico según el diagnóstico de circuitos electrónicos, aplicando las normas de seguridad y salud en el trabajo, utilizando las herramientas y equipos de trabajo según tipos y clasificación, igualmente logró identificar los insumos para el diagnóstico.
-    p.mb-5 Como síntesis se sugiere consultar el siguiente mapa conceptual:
+    p En este componente formativo se tratan conceptos relacionados con las herramientas utilizadas en el diagnóstico de circuitos electrónicos, su uso adecuado, normas aplicadas y los insumos necesarios para emitir un concepto acertado del estado de un producto electrónico.
+    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
 
     .row.justify-content-center
       .col-lg-12.mb-5

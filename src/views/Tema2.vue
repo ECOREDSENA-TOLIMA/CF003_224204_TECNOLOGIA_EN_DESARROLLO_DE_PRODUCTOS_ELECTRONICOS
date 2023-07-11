@@ -21,7 +21,7 @@
               img(src="@/assets/curso/tema2-hover1.png", alt="Herramientas")
               .text.p-lg-5.p-3.p-sm-3
                 p Es posible encontrar en el comercio electrónico varios tipos de 
-                  strong kits
+                  strong kits 
                   | completos para esta labor. Esta imagen muestra  algunas de las herramientas necesarias para trabajar con equipos electrónicos.
           .col-lg-6.mb-4(data-aos="fade-left")
             .nav-holder(@mouseover="mostrarIndicador = false")
@@ -47,7 +47,6 @@
               img(src='@/assets/curso/tema2-1-tabs1.jpg', alt='Herramientas electrónicas')
           .col-md-1    
           .col-md-5
-            h4 Herramientas electrónicas
             p Dentro de las herramientas electrónicas más comunes, se encuentran el multímetro digital y el osciloscopio. Estas herramientas complementan muy bien las  manuales, garantizando un buen diagnóstico. De estas dos, es imprescindible contar con el multímetro.
       .py-3.py-md-4(titulo="Herramientas manuales")
         .row.justify-content-center
@@ -56,7 +55,6 @@
               img(src='@/assets/curso/tema2-1-tabs2.jpg', alt='Herramientas manuales')
           .col-md-1    
           .col-md-5
-            h4 Herramientas manuales
             p Las herramientas manuales abarcan todos los elementos necesarios para acceder a los diferentes módulos de un equipo electrónico. Destornilladores, pinzas, alicates, sujetadores, extractores, cautín, levanta-pestaña, 
               strong protoboard, 
               | y un largo etcétera.
@@ -68,9 +66,8 @@
               figcaption Tomada de Renishaw (2020).
           .col-md-1    
           .col-md-5
-            h4 Herramientas inteligentes
-            p Las herramientas inteligentes de diagnóstico son un tipo nuevo, que integra un poco de cada una de las ya mencionadas y se complementa con un 
-              strong <em>software,</em> 
+            p Las herramientas inteligentes de diagnóstico son un tipo nuevo que integra un poco de cada una de las ya mencionadas y se complementa con un 
+              strong <em>software, </em>
               | lo que permite el análisis de datos en tiempo real y así obtener un diagnóstico preciso y confiable.
 
     p.mb-4(data-aos="fade") Existen también las herramientas integradas. Estas están contenidas en un módulo conectado a un equipo de cómputo donde se visualizan todos los datos de medición. Este tipo de herramientas son muy útiles cuando se requiere hacer montaje de prototipos. Algunas de estas se presentan a continuación.
@@ -82,11 +79,11 @@
             .row.px-lg-5
               figure.px-lg-5.py-lg-3
                 img.m-2(src='@/assets/curso/tema2-1-slider1.jpg', alt='Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos')
-                figcaption Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos. Nota. Tomada de NI (2020). 
+                figcaption <b>Figura 4.</b> <em>Dispositivo de laboratorio de ingeniería desarrollado para el aprendizaje basado en proyectos. Nota. Tomada de NI (2020).</em> 
             .row.px-lg-5
               figure.px-lg-5.py-lg-3
                 img.m-2(src='@/assets/curso/tema2-1-slider2.jpg', alt='Captura de pantalla del software para Elvis III de National Instruments.')
-                figcaption Captura de pantalla del <em>software</em> para Elvis III de National Instruments.
+                figcaption <b>Figura 5.</b> <em>Captura de pantalla del software para Elvis III de National Instruments.</em>
 
     Separador
 
@@ -99,7 +96,7 @@
 
     .titulo-sexto.color-acento-contenido
       p.mb-0
-        strong Figura 4. 
+        strong Figura 6. 
         | <em>Clasificación de las herramientas para diagnóstico de equipos electrónicos</em>
     figure.mb-4
       img(src='@/assets/curso/tema2-2-fig4.svg', alt='Clasificación de las herramientas para diagnóstico de equipos electrónicos')
